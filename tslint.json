@@ -1,0 +1,22 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-standard",
+    "tslint-react",
+    "tslint-config-prettier"
+  ],
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "rules": {
+    "prettier": true,
+    "array-type": false,
+    "jsx-no-lambda": false,
+    "strict-type-predicates": {
+      "severity": "warning"
+    },
+    "jsx-boolean-value": false
+  },
+  "globals": {
+    "__DEV__": "readonly"
+  }
+}
